@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header
+{
+    display: flex;
+    height:5cm;
+    width:100%;
+    background-color: rgba(128, 128, 128, 0.87);
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    margin: 5cm;
+    background-color: grey;
+    height: 4cm;
+    width: 30cm;
+    align-self: auto;
+    justify-content: center;
+    
+}
+ul li{
+    list-style-type: none;
+    display:inline-block;
+    background-color: white;
+    padding: 0.75cm;
+    margin:2.3cm;
+    margin-top: 0.60cm;
+    border-radius: 10px;
+    
+    
+}
+.HOME{
+    font-size: 40px;
+}
+
+ ul li a{
+    color: brown;
+}
+
+body{
+    background-image:url(gray-grunge-surface-wall-texture-background_1017-18216.webp);
+}
+
+
